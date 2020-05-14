@@ -39,10 +39,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Character.cs" />
-    <Compile Include="EnumTypeCharacter.cs" />
-    <Compile Include="EnumTypeThing.cs" />
-    <Compile Include="Faction.cs" />
+    <Compile Include="RPG\Character.cs" />
+    <Compile Include="Models\Enums\EnumTypeCharacter.cs" />
+    <Compile Include="Models\Enums\EnumTypeThing.cs" />
+    <Compile Include="RPG\Faction.cs" />
     <Compile Include="Interfaces\ICharacterActions.cs" />
     <Compile Include="Interfaces\ICreate.cs" />
     <Compile Include="Interfaces\IFactionActions.cs" />
@@ -53,7 +53,7 @@
     <Compile Include="Iterations\Iteration5.cs" />
     <Compile Include="Models\CharacterModel.cs" />
     <Compile Include="Models\ThingModel.cs" />
-    <Compile Include="Thing.cs" />
+    <Compile Include="RPG\Thing.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

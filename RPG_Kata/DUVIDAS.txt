@@ -1,0 +1,13 @@
+﻿1 - O valor 1000 para Health é imutável? Um cliente poderia ter proposto esse valor achando que o analista subentendia que poderia ser mutável.
+Considerei, pela lógica, que esse valor pode aumentar conforme aumente o LEVEL.
+Nesse caso eu criaria no banco de dados uma tabela com os parâmetros para aumento do Health, porém nesse projeto irei criar apenas um
+atributo MaxHealth para identificar o valor máximo de health que aquele personagem pode atingir.
+
+2 - O valor de Health pode conter decimais? Vou partir do princípio que não. Pela pouca experiência que tenho em jogos de RPG, não me
+lembro de valores de HP em decimal. Mas é uma questão a ser levantada para o cliente, pois na iteração 2 o valor de dano pode ser
+aumentado ou reduzido em 50%, possibilitando assim um número decimal.
+
+3 - Haverá personagens diferentes e específicos? Prevendo essa possibilidade criei uma interface genérica para criação de personagens.
+
+4 - Não entendo bem nesse contexto uma forma para cancular a distância entre os personagens e assim decidir se estão dentro do alcance
+para efetuar um ataque e causar dano. Na iteração 3 criei um método que supostamente calcularia essa distancia.
